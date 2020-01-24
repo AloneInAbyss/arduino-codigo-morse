@@ -2,6 +2,7 @@
 #include <Arduino.h>
 
 const int pinLED = 8;
+int intervalo = 250;
 void dot();
 void dash();
 void newLetter();
@@ -22,22 +23,22 @@ void loop() {
 
 void dot() {
   digitalWrite(pinLED, HIGH);
-  delay(250);
+  delay(intervalo);
   digitalWrite(pinLED, LOW);
-  delay(250);
+  delay(intervalo);
 }
 
 void dash() {
   digitalWrite(pinLED, HIGH);
-  delay(750);
+  delay(intervalo*3);
   digitalWrite(pinLED, LOW);
-  delay(250);
+  delay(intervalo);
 }
 
 void newLetter() {
-  delay(750);
+  delay(intervalo*3);
 }
 
 void newWord() {
-  delay(1750);
+  delay(intervalo*7);
 }
