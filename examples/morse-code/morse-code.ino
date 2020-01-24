@@ -2,7 +2,7 @@
 
 // Instacia o objeto a partir da classe Morse
 // Morse(int pinLED, int intervalo)
-Morse morse(8, 250);
+Morse morse(LED_BUILTIN, 250);
 
 void setup() {
   // Escreve um PONTO
