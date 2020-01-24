@@ -1,7 +1,8 @@
 /*
   Morse.h - Biblioteca para Código Morse
   Criado por Thiago Assi, 24 de janeiro de 2020
-  Disponível para o domínio público
+  Disponível no GitHub:
+  https://github.com/AloneInAbyss/arduino-codigo-morse
 */
 
 #ifndef Morse_h
