@@ -13,7 +13,7 @@
 class Morse
 {
   public:
-    Morse(int pinLED, int intervalo);
+    Morse(int pinLED, int intervalo=250);
     void dot();
     void dash();
     void newLetter();

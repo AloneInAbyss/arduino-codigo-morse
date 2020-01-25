@@ -1,8 +1,8 @@
 #include <Morse.h>
 
 // Instacia o objeto a partir da classe Morse
-// Morse(int pinLED, int intervalo)
-Morse morse(LED_BUILTIN, 250);
+// Morse(int pinLED, [int intervalo])
+Morse morse(LED_BUILTIN);
 
 void setup() {
   // Escreve um PONTO
