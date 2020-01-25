@@ -7,7 +7,7 @@
 #include "Arduino.h"
 #include "Morse.h"
 
-Morse::Morse(int pinLED, int intervalo)
+Morse::Morse(int pinLED, int intervalo=250)
 {
   pinMode(pinLED, OUTPUT);
   _pinLED = pinLED;
