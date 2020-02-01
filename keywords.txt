@@ -3,3 +3,6 @@ dash	KEYWORD2
 dot	KEYWORD2
 newLetter	KEYWORD2
 newWord	KEYWORD2
+text	KEYWORD2
+wait	KEYWORD2
+sos	KEYWORD2

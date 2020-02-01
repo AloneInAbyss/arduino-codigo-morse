@@ -18,6 +18,9 @@ class Morse
     void dash();
     void newLetter();
     void newWord();
+    void text(String text);
+    void sos();
+    void wait(int time);
 
   private:
     int _pinLED, _intervalo;

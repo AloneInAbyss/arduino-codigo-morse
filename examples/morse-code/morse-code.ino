@@ -19,6 +19,9 @@ void setup() {
 }
 
 void loop() {
+  // Espera 5x o tempo de intervalo
+  morse.wait(5);
+
   // Pedido de SOS
   morse.dot();morse.dot();morse.dot();
   morse.newLetter();
@@ -28,4 +31,14 @@ void loop() {
 
   morse.dot();morse.dot();morse.dot();
   morse.newWord();
+
+  // Espera 10x o tempo de intervalo
+  morse.wait(10);
+  // Função para o pedido de SOS
+  morse.sos();
+
+  // Espera 10x o tempo de intervalo
+  morse.wait(10);
+  // Função personalizada
+  morse.text("SOS");
 }
